@@ -1,27 +1,21 @@
 #ifndef LV_CONF_H
 #define LV_CONF_H
 
-/*********************
- *  LVGL 9.x Einstellungen
- *********************/
-
-/* Einfaches Inkludieren von lv_conf.h */
+/* Einfaches Inkludieren */
 #define LV_CONF_INCLUDE_SIMPLE 1
 
-/* Farbtiefe: 16 Bit (RGB565) */
+/* Farbtiefe (RGB565) */
 #define LV_COLOR_DEPTH 16
 
-/* Maximale Auflösung deines Displays */
+/* Auflösung */
 #define LV_HOR_RES_MAX 160
 #define LV_VER_RES_MAX 128
 
-/* Keine LVGL-Beispiele kompilieren (spart Platz, vermeidet Konflikte) */
+/* Keine Beispiele kompilieren */
 #define LV_BUILD_EXAMPLES 0
 
-/* Ggf. weitere Einstellungen nach Bedarf:
-   - #define LV_USE_PERF_MONITOR 1
-   - #define LV_USE_LOG 1
-   - etc.
-*/
+/* Falls du die Log-Ausgabe brauchst: */
+// #define LV_USE_LOG 1
+// #define LV_LOG_LEVEL LV_LOG_LEVEL_TRACE
 
-#endif /*LV_CONF_H*/
+#endif /* LV_CONF_H */

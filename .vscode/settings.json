@@ -1,0 +1,11 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.espIdfPathWin": "C:\\Users\\timoe\\esp\\v5.3.1\\esp-idf",
+    "idf.pythonInstallPath": "C:\\Users\\timoe\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32s3.cfg"
+    ],
+    "idf.portWin": "COM4",
+    "idf.toolsPathWin": "C:\\Users\\timoe\\.espressif"
+}
